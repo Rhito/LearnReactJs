@@ -1,0 +1,49 @@
+.listProductHead {
+  padding: 0 22px 16px 22px;
+}
+
+.headerlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputFilter {
+  flex: 0.6;
+}
+
+.title {
+  font-weight: 550;
+}
+
+.navList {
+  display: flex;
+  gap: 16px;
+}
+
+.navButton {
+  padding: 8px 20px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  color: #505253;
+  font-weight: 450;
+}
+.navButton:hover:not(:disabled):not(.activeNavButton) {
+  border-color: #3a7ce0;
+  background-color: #f7f7f7;
+  color: #3a7ce0;
+}
+
+.navButton.activeNavButton:hover {
+  background-color: #3a7ce0;
+  border: none;
+  transform: scale(0.99);
+  color: #f7f7f7;
+}
+
+.activeNavButton {
+  background-color: #3a7ce0;
+  border: none;
+  color: #f7f7f7;
+}

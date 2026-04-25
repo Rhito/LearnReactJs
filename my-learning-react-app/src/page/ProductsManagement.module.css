@@ -1,0 +1,10 @@
+.productsManagement {
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  margin: 1rem 2rem;
+}
+.productsManagementBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-radius: 15px;
+}

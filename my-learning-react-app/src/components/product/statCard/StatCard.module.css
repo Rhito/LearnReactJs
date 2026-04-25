@@ -1,0 +1,32 @@
+.wrapStat {
+  display: flex;
+  border-radius: 14px;
+  height: 144px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.mainStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgStat {
+  border-radius: 16px;
+  box-sizing: border-box;
+  margin: 32px;
+}
+
+.titleStat,
+.amountStat,
+.descriptionStat {
+  color: #45494d;
+  margin: 4px 0;
+}
+
+.titleStat {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.amountStat {
+  font-size: 1.55rem;
+}
